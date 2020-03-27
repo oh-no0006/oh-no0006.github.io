@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/turn.js"></script>
+<title>OCA大阪デザイン＆IT専門学校_小野紗有里_ポートフォリオ</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="flipbook">
+      <div></div>
+      <div>
+        <iframe width="843" height="502" src="https://www.youtube.com/embed/wSt4LJQeaeQ?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div><iframe width="843" height="470" src="https://www.youtube.com/embed/CJ3y1P370u0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+      <iframe width="410" height="285" src="https://www.youtube.com/embed/uXxZIEnOLyM?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+      	<div class ="sm_mov">
+      	<table>
+      	<tr>
+      	<td><iframe width="320" height="270" src="https://www.youtube.com/embed/va22IH--xtc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+      	<td><iframe width="320" height="270" src="https://www.youtube.com/embed/mqj87593bno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+      	</tr>
+      	</table>
+      	</div>
+      </div>
+      <div>
+        <div class ="sm_mov">
+      	<table>
+      	<tr>
+      	<td><iframe width="320" height="270" src="https://www.youtube.com/embed/FnUA1RHGNOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+      	<td><iframe width="320" height="270" src="https://www.youtube.com/embed/-NrYVGUpazg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+      	</tr>
+      	</table>
+      	</div>
+      </div>
+      <div><iframe width="790" height="430" src="https://www.youtube.com/embed/SSOPF-YPMoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+    $("#flipbook").turn({
+        when:{
+            turning: function(e,page,view){
+                const book = $(this),
+                pages=book.turn("pages");
+                 if (page >= 2) $("#flipbook .p2").addClass("fixed");
+                else $("#flipbook .p2").removeClass("fixed");
+
+                if (page < book.turn("pages"))
+                    $("#flipbook .p5").addClass("fixed");
+                else $("#flipbook .p5").removeClass("fixed");
+
+            }
+        }
+    });
+
+
+</script>
+</html>
