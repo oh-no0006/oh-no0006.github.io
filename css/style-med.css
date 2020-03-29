@@ -1,0 +1,164 @@
+div {
+  color: white;
+}
+
+body{
+  overflow-y: scroll;
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+  background-color: #d3d3d3;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.wrapper{
+  width:100vw;
+  text-align: center;
+  background-image: url(../image/explain_2_mid.png);
+  background-repeat: no-repeat;
+  margin: 180px auto;
+
+}
+
+.odd {
+  background-color: #000;
+}
+.even {
+  background-color: #000;
+}
+
+
+.p1{
+  background-image: url(../image/p1_med.png);
+}
+
+.p2{
+  background-image: url(../image/p2_med.png);
+}
+
+.p2 iframe{
+  width: 630px;
+  height:375px;
+}
+
+.p3{
+  background-image: url(../image/p3_med.png);
+}
+
+.p4{
+  background-image: url(../image/p4_med.png);
+}
+
+
+.p5{
+  background-image: url(../image/p5_med.png);
+}
+
+.p6{
+  background-image: url(../image/p6_med.png);
+}
+
+.p7{
+  background-image: url(../image/p7_med.png);
+}
+
+.p8{
+  background-image: url(../image/p8_med.png);
+}
+
+.p8 iframe{
+  width:630px;
+  height:375px;
+}
+
+.p9{
+  background-image: url(../image/p9_med.png);
+}
+
+.p9 iframe{
+    float: left;
+    margin: 20px 35px;
+    width: 315px;
+    height:220px;
+}
+
+
+.p10{
+  background-image: url(../image/p10_med.png);
+}
+
+.p11{
+  background-image: url(../image/p11_med.png);
+}
+
+.p10 iframe, .p11 iframe {
+  width:240px;
+  height: 190px;
+}
+
+
+.p12{
+  background-image: url(../image/p12_med.png);
+}
+
+.p12 iframe{
+	margin-top:25px;
+  width:632px;
+  height:315px;
+}
+
+.p13{
+  background-image: url(../image/p13_med.png);
+}
+
+.p14{
+  background-image: url(../image/p14_med.png);
+}
+
+.p15{
+  background-image: url(../image/p15_med.png);
+}
+
+.p16{
+  background-image: url(../image/p16_med.png);
+}
+
+.p17{
+  background-image: url(../image/p17_med.png);
+}
+
+.p18{
+  background-image: url(../image/p18_med.png);
+}
+
+.p19{
+  background-image: url(../image/p19_med.png);
+}
+
+.p20{
+  background-image: url(../image/p20_med.png);
+}
+
+.sm_mov{
+}
+
+.sm_mov table{
+margin: 35px auto 0;
+}
+
+.sm_mov tr{
+
+}
+
+.sm_mov td{
+padding: 0 30px;
+}
+
+
+#flipbook {
+  width: 1264px;
+  height: 447px;
+  margin:auto;
+}

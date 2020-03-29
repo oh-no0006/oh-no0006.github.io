@@ -29,15 +29,6 @@ body::-webkit-scrollbar{
   background-color: #000;
 }
 
-.p1,
-.p2,
-.p3,
-.p4 {
-  width: 400px;
-  height: 500px;
-  background-color: #000;
-}
-
 .p1{
   background-image: url(../image/p1_large.png);
 }
@@ -46,7 +37,10 @@ body::-webkit-scrollbar{
   background-image: url(../image/p2_large.png);
 }
 
-
+.p2 iframe{
+  width: 843px;
+  height:502px;
+}
 
 .p3{
   background-image: url(../image/p3_large.png);
@@ -72,6 +66,10 @@ body::-webkit-scrollbar{
 .p8{
   background-image: url(../image/p8_large.png);
 }
+.p8 iframe{
+  width:843px;
+  height:480px;
+}
 
 .p9{
   background-image: url(../image/p9_large.png);
@@ -80,11 +78,18 @@ body::-webkit-scrollbar{
 .p9 iframe{
     float: left;
     margin: 25px 45px;
+    width: 410px;
+    height:285px;
 }
 
 
 .p10{
   background-image: url(../image/p10_large.png);
+}
+
+.p10 iframe, .p11 iframe {
+  width:320px;
+  height: 270px;
 }
 
 .p11{
@@ -97,6 +102,8 @@ body::-webkit-scrollbar{
 
 .p12 iframe{
 	margin-top:28px;
+  width:790px;
+  height:430px;
 }
 
 .p13{
