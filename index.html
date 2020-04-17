@@ -5,21 +5,72 @@
 
 <link rel="stylesheet" href="css/style.css" media="screen and (min-width:1800px)"/>
 <link rel="stylesheet" href="css/style-med.css" media="screen and (max-width:1800px)"/>
+<link rel="stylesheet" href="css/magazine.css" />
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/turn.js"></script>
+
+<script type="text/javascript" src="./lib/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="./lib/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./lib/hash.js"></script>
+
 <title>OCA大阪デザイン＆IT専門学校_小野紗有里_ポートフォリオ</title>
 </head>
 <body>
+
   <div class="wrapper">
+
     <div id="flipbook">
       <div></div>
       <div>
-        <iframe  src="https://www.youtube.com/embed/bZ2I3J18K20?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="index thumbnails">
+        <table>
+          <tr>
+            <th colspan="2">INDEX<th>
+          </tr>
+          <tr class="cat">
+            <td colspan="2">Ⅰ.デモリール</td>
+          </tr>
+          <tr class="cat">
+            <td colspan="2">Ⅱ.エフェクト作品</td>
+          </tr>
+          <tr>
+            <td class="page-4"><span class="ju">1.爆炎斬</span></td><td class="page-14"><span class="ju">5.ヒールウェーブ</span></td>
+          </tr>
+          <tr>
+            <td class="page-8"><span class="ju">2.プファイルグランツ</span></td><td class="page-14"><span class="ju">6.攻撃力・防御力アップエフェクト</span></td>
+          </tr>
+          <tr>
+            <td class="page-12"><span class="ju">3.Houdini練習作品</span></td><td class="page-15"><span class="ju">7.全体攻撃力アップエフェクト</span></td>
+          </tr>
+          <tr>
+            <td class="page-13"><span class="ju">4.ブリッツ・レイ</span></td><td class="page-15"><span class="ju">8.メテオライト</span></td>
+          </tr>
+          <tr class="cat">
+            <td colspan="2">Ⅲ.その他作品</td>
+          </tr>
+          <tr>
+            <td class="page-16"><span class="ju">1.走麺 - グループ制作</span></td><td class="page-20"><span class="ju">3.デッサン</span></td>
+          </tr>
+          <tr>
+            <td class="page-18"><span class="ju">2.Witch's Studio - 背景モデリング</span></td><td>　</td>
+          </tr>
+          <tr class="cat">
+            <td colspan="2" class="page-23"><span class="ju">Ⅳ.プロフィール</span></td>
+          </tr>
+        </table>
+      </div>
+      </div>
+      <div>
+        <iframe src="https://www.youtube.com/embed/uvP_PYCoqOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div>
+        <iframe src="https://www.youtube.com/embed/bZ2I3J18K20?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div></div>
       <div></div>
+      <div></div>
+      <div><iframe src="https://www.youtube.com/embed/78XvU0d2yGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <div></div>
       <div></div>
       <div></div>
@@ -58,24 +109,145 @@
       <div></div>
       <div></div>
     </div>
+
+    <div class="thumbnails">
+    	<div>
+    	<ul>
+        <li class="i" style="margin-right:5px">
+          <img src="image/2-thumb.jpg" width="127" height="72" class="page-2">
+          <span>デモリール</span>
+    			<li class="i">
+    				<img src="image/4-thumb.jpg" width="128" height="72" class="page-4">
+    				<span>爆炎斬</span>
+    			</li>
+    			<li class="i">
+          <img src="image/8-thumb.jpg" width="128" height="72" class="page-8">
+          <span>プファイルグランツ</span>
+    			</li>
+          <li class="i">
+          <img src="image/12-thumb.jpg" width="128" height="72" class="page-12">
+          <span>Houdini練習作品</span>
+          </li>
+          <li class="i">
+          <img src="image/13-thumb.jpg" width="128" height="72" class="page-13">
+          <span>ブリッツ・レイ</span>
+          </li>
+          <li class="i">
+          <img src="image/14-1-thumb.jpg" width="128" height="72" class="page-14">
+          <span>ヒールウェーブ</span>
+          </li>
+          <li class="i">
+          <img src="image/14-2-thumb.jpg" width="128" height="72" class="page-14">
+          <span>攻撃・防御力アップ</span>
+          </li>
+    			</li>
+          <li class="i">
+          <img src="image/15-1-thumb.jpg" width="128" height="72" class="page-15">
+          <span>全体攻撃力アップ</span>
+          </li>
+          <li class="i">
+          <img src="image/15-2-thumb.jpg" width="128" height="72" class="page-15">
+          <span>メテオライト</span>
+    			</li>
+          <li class="i">
+          <img src="image/16-thumb.jpg" width="128" height="72" class="page-16">
+          <span>走麺</span>
+    			</li>
+          <li class="i">
+          <img src="image/18-thumb.jpg" width="128" height="72" class="page-18">
+          <span>Witch's Studio</span>
+    			</li>
+          <li class="i">
+          <img src="image/20-thumb.jpg" width="128" height="72" class="page-20">
+          <span>デッサン</span>
+    			</li>
+          <li class="i">
+          <img src="image/23-thumb.jpg" width="128" height="72" class="page-23">
+          <span>プロフィール</span>
+    			</li>
+    		<ul>
+    	<div>
+    </div>
+
+
   </div>
 </body>
 <script type="text/javascript">
+
+
     $("#flipbook").turn({
         when:{
             turning: function(e,page,view){
                 const book = $(this),
                 pages=book.turn("pages");
-                 if (page >= 2) $("#flipbook .p2").addClass("fixed");
-                else $("#flipbook .p2").removeClass("fixed");
 
-                if (page < book.turn("pages"))
-                    $("#flipbook .p5").addClass("fixed");
-                else $("#flipbook .p5").removeClass("fixed");
+
+              	Hash.go('page/' + page).update();
+              //  disableControls(page);
+
+
+                //$('.thumbnails .page-'+currentPage).
+                  //parent().
+                  //removeClass('current');
+
+                //$('.thumbnails .page-'+page).
+                //  parent().
+                //  addClass('current');*/
+
 
             }
         }
     });
+    // Events for thumbnails
+
+  	$('.thumbnails').click(function(event) {
+
+  		var page;
+
+  		if (event.target && (page=/page-([0-9]+)/.exec($(event.target).attr('class'))) ) {
+
+  			$('#flipbook').turn('page', page[1]);
+  		}
+  	});
+
+  	$('.thumbnails li').
+  		bind($.mouseEvents.over, function() {
+
+  			$(this).addClass('thumb-hover');
+
+  		}).bind($.mouseEvents.out, function() {
+
+  			$(this).removeClass('thumb-hover');
+
+  		});
+
+  	if ($.isTouch) {
+
+  		$('.thumbnails').
+  			addClass('thumbanils-touch').
+  			bind($.mouseEvents.move, function(event) {
+  				event.preventDefault();
+  			});
+
+  	} else {
+
+  		$('.thumbnails ul').mouseover(function() {
+
+  			$('.thumbnails').addClass('thumbnails-hover');
+
+  		}).mousedown(function() {
+
+  			return false;
+
+  		}).mouseout(function() {
+
+  			$('.thumbnails').removeClass('thumbnails-hover');
+
+  		});
+
+  	}
+
+
 
 
 </script>

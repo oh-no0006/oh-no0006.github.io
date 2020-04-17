@@ -13,12 +13,14 @@ body::-webkit-scrollbar{
   display: none;
 }
 
+
+
 .wrapper{
   width:100vw;
   text-align: center;
-  background-image: url(../image/explain_2.png);
+  background-image: url(../image/explain_2_large.png);
   background-repeat: no-repeat;
-  margin: 180px auto;
+  margin: 100px auto 50px auto;
 
 }
 
@@ -37,19 +39,26 @@ body::-webkit-scrollbar{
   background-image: url(../image/p2_large.png);
 }
 
-.p2 iframe{
-  width: 843px;
-  height:502px;
-}
+
 
 .p3{
   background-image: url(../image/p3_large.png);
+}
+
+.p3 iframe{
+  width: 843px;
+  height:502px;
+  margin-top: 47px;
 }
 
 .p4{
   background-image: url(../image/p4_large.png);
 }
 
+.p4 iframe{
+  width: 843px;
+  height:502px;
+}
 
 .p5{
   background-image: url(../image/p5_large.png);
@@ -75,22 +84,12 @@ body::-webkit-scrollbar{
   background-image: url(../image/p9_large.png);
 }
 
-.p9 iframe{
-    float: left;
-    margin: 25px 45px;
-    width: 410px;
-    height:285px;
-}
-
 
 .p10{
   background-image: url(../image/p10_large.png);
 }
 
-.p10 iframe, .p11 iframe {
-  width:320px;
-  height: 270px;
-}
+
 
 .p11{
   background-image: url(../image/p11_large.png);
@@ -99,16 +98,26 @@ body::-webkit-scrollbar{
 .p12{
   background-image: url(../image/p12_large.png);
 }
-
 .p12 iframe{
-	margin-top:28px;
-  width:790px;
-  height:430px;
+  width: 843px;
+  height:502px;
 }
+
+
+
 
 .p13{
   background-image: url(../image/p13_large.png);
 }
+
+.p13 iframe{
+    float: left;
+    margin: 25px 45px;
+    width: 410px;
+    height:285px;
+}
+
+
 
 .p14{
   background-image: url(../image/p14_large.png);
@@ -117,9 +126,18 @@ body::-webkit-scrollbar{
 .p15{
   background-image: url(../image/p15_large.png);
 }
+.p14 iframe, .p15 iframe {
+  width:320px;
+  height: 270px;
+}
 
 .p16{
   background-image: url(../image/p16_large.png);
+}
+.p16 iframe{
+	margin-top:28px;
+  width:790px;
+  height:430px;
 }
 
 .p17{
@@ -136,6 +154,68 @@ body::-webkit-scrollbar{
 
 .p20{
   background-image: url(../image/p20_large.png);
+}
+
+.p21{
+  background-image: url(../image/p21_large.png);
+}
+
+.p22{
+  background-image: url(../image/p22_large.png);
+}
+
+.p23{
+  background-image: url(../image/p23_large.png);
+}
+
+.p24{
+  background-image: url(../image/p24_large.png);
+}
+
+.index{
+  font-family:"ＭＳ 明朝" ;
+}
+
+.index table{
+  text-align: left;
+padding: 40px;
+}
+
+.index th{
+  font-size:35px;
+}
+
+.index .cat td{
+  font-size: 25px;
+  padding-left: 0;
+  padding-top: 25px;
+}
+
+.index td{
+  font-size: 18px;
+  padding: 8px 8px 8px 40px;
+}
+
+.ju {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.ju::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: red;
+  transition: all 0.3s ease 0s;
+}
+.ju:hover {
+  cursor: pointer;
+}
+.ju:hover::after {
+  width: 100%;
 }
 
 .sm_mov{

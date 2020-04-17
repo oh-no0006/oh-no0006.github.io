@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
   text-align: center;
   background-image: url(../image/explain_2_mid.png);
   background-repeat: no-repeat;
-  margin: 180px auto;
+  margin: 180px auto 50px auto;
 
 }
 
@@ -38,19 +38,25 @@ body::-webkit-scrollbar{
   background-image: url(../image/p2_med.png);
 }
 
-.p2 iframe{
-  width: 630px;
-  height:375px;
-}
 
 .p3{
   background-image: url(../image/p3_med.png);
+}
+
+.p3 iframe{
+  width: 630px;
+  height:375px;
+  margin-top:37px;
 }
 
 .p4{
   background-image: url(../image/p4_med.png);
 }
 
+.p4 iframe{
+  width: 630px;
+  height:375px;
+}
 
 .p5{
   background-image: url(../image/p5_med.png);
@@ -77,12 +83,7 @@ body::-webkit-scrollbar{
   background-image: url(../image/p9_med.png);
 }
 
-.p9 iframe{
-    float: left;
-    margin: 20px 35px;
-    width: 315px;
-    height:220px;
-}
+
 
 
 .p10{
@@ -93,36 +94,50 @@ body::-webkit-scrollbar{
   background-image: url(../image/p11_med.png);
 }
 
-.p10 iframe, .p11 iframe {
-  width:240px;
-  height: 190px;
-}
-
 
 .p12{
   background-image: url(../image/p12_med.png);
 }
 
 .p12 iframe{
-	margin-top:25px;
-  width:632px;
-  height:315px;
+  width: 630px;
+  height:375px;
 }
+
 
 .p13{
   background-image: url(../image/p13_med.png);
 }
+.p13 iframe{
+    float: left;
+    margin: 20px 35px;
+    width: 315px;
+    height:220px;
+}
+
 
 .p14{
   background-image: url(../image/p14_med.png);
 }
 
+
 .p15{
   background-image: url(../image/p15_med.png);
 }
 
+.p14 iframe, .p15 iframe {
+  width:240px;
+  height: 190px;
+}
+
 .p16{
   background-image: url(../image/p16_med.png);
+}
+
+.p16 iframe{
+	margin-top:25px;
+  width:632px;
+  height:315px;
 }
 
 .p17{
@@ -140,6 +155,69 @@ body::-webkit-scrollbar{
 .p20{
   background-image: url(../image/p20_med.png);
 }
+
+.p21{
+  background-image: url(../image/p21_med.png);
+}
+
+.p22{
+  background-image: url(../image/p22_med.png);
+}
+
+.p23{
+  background-image: url(../image/p23_med.png);
+}
+
+.p24{
+  background-image: url(../image/p24_med.png);
+}
+
+.index{
+  font-family:"ＭＳ 明朝" ;
+}
+
+.index table{
+  text-align: left;
+padding: 20px 30px;;
+}
+
+.index th{
+  font-size:35px;
+}
+
+.index .cat td{
+  font-size: 20px;
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+.index td{
+  font-size: 14px;
+      padding: 6px 6px 6px 30px;
+}
+
+.ju {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.ju::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: red;
+  transition: all 0.3s ease 0s;
+}
+.ju:hover {
+  cursor: pointer;
+}
+.ju:hover::after {
+  width: 100%;
+}
+
 
 .sm_mov{
 }
